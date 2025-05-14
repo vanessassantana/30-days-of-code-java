@@ -10,9 +10,9 @@ public class Day02Operators {
 		 Scanner input = new Scanner(System.in);
 		 
 		 
-		    double meal_cost = input.nextDouble(); // custo da refeição
-	        int tip_percent = input.nextInt(); // porcentagem da gorjeta
-	        int tax_percent = input.nextInt(); // porcentagem do imposto
+		double meal_cost = input.nextDouble(); 
+	        int tip_percent = input.nextInt(); 
+	        int tax_percent = input.nextInt(); 
 	        
 	        
 	        double tip = meal_cost * tip_percent / 100;
